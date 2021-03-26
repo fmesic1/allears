@@ -1,0 +1,43 @@
+.initiatives{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 204px;
+    padding-left: 204px;
+    background-image: url('./../../assets/svg/bg.svg');
+    background-repeat: round;
+    background-size: cover;
+    background-color: #FAFBFB;
+}
+
+.title{
+    margin-top: 144px;
+    margin-bottom: 86px;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: "Gordita Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 114px;
+    line-height: 56px;
+    /* identical to box height, or 49% */
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #ffffff;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content__dropdown{
+    margin-bottom: 40px;
+}
+
+.content__dropdown:last-child{
+    margin-bottom: 0px;
+}

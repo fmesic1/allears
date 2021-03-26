@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 3px solid #EFEFF1;
+    
+    padding-bottom: 18px;
+}
+
+.footer__item{
+    margin-right: 24px;
+}
+
+.footer__item:last-child{
+    margin-right: 0px;
+}

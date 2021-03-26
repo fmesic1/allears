@@ -1,0 +1,23 @@
+.scoreBreakdown{
+    padding: 72px 64px;
+    background-image: url('./../../assets/svg/bg.svg');
+    background-repeat: round;
+    background-size:cover;
+    background-color: #FAFBFB;
+}
+
+.scoreBreakdown__scoreCards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scoreBreakdown__scoreCards__singleCard{
+    box-sizing: border-box;
+    width: calc(100% / 2 - 1 / 2 * 40px);
+    margin-right: 40px;
+    margin-bottom: 48px;
+}
+
+.scoreBreakdown__scoreCards__singleCard:nth-child(2n){
+    margin-right: 0px;
+}

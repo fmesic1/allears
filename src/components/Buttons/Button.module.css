@@ -1,0 +1,29 @@
+.button{
+    border: 1px solid #E9EBEE;
+    box-sizing: border-box;
+    border-radius: 24px;
+    padding: 10px 18px;
+}
+
+.button__content{
+    display: flex;
+    align-items: center;
+}
+
+.button__content__text{
+    font-family: "Gordita Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: -0.01em;
+}
+
+.button__content__arrow{
+    margin-left: 8px;
+    width: 3px;
+    height: 3px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    transform: rotate(45deg);
+}
