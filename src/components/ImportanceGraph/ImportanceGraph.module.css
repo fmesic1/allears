@@ -1,0 +1,88 @@
+.impGraph{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 550px;
+}
+
+.impGraph__circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    /* or 118% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+
+    position: absolute;
+    border-radius: 50%;
+}
+
+.impGraph__circle__LIGHTBLUE{
+    position: absolute;
+    top: calc(120 / 550 * 100%);
+    /*na dizajnu je sirina impGraph-a 802 px
+    kada se pogleda udaljenost od lijevog bordera na dizajnu dobije se 168 px
+    na osnovu toga se racuna postotak za bilo koji width.*/
+    left: calc(168 / 802 * 100%);
+    width: 96px;
+    height: 96px;
+    background-color: #67C8FF;
+    border-radius: 50%;
+}
+
+.impGraph__circle__ORANGE__BIG{
+    position: absolute;
+    top: calc(154 / 550 * 100%);
+    left: calc(294 / 802 * 100%);
+    width: 188px;
+    height: 188px;
+    background-color: #FAA745;
+    border-radius: 50%;
+}
+
+.impGraph__circle__PURPLE__BIG{
+    position: absolute;
+    top: calc(84 / 550 * 100%);
+    left: calc(494 / 802 * 100%);
+    width: 132px;
+    height: 132px;
+    background-color: #8F8FE1;
+    border-radius: 50%;
+}
+
+.impGraph__circle__ORANGE__SMALL{
+    position: absolute;
+    top: calc(320 / 550 * 100%);
+    left: calc(208 / 802 * 100%);
+    width: 146px;
+    height: 146px;
+    background-color: #FAA745;
+    border-radius: 50%;
+}
+
+.impGraph__circle__PURPLE__SMALL{
+    position: absolute;
+    top: calc(356 / 550 * 100%);
+    left: calc(438 / 802 * 100%);
+    width: 32px;
+    height: 32px;
+    background-color: #8F8FE1;
+    border-radius: 50%;
+}
+
+.impGraph__circle__LIGHTBLUE__SMALL{
+    position: absolute;
+    top: calc(314 / 550 * 100%);
+    left: calc(486 / 802 * 100%);
+    width: 20px;
+    height: 20px;
+    background-color: #FAA745;
+    border-radius: 50%;
+}
