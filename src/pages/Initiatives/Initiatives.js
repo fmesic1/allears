@@ -17,12 +17,27 @@ const Initiatives = () => {
                 {
                     what: "Build brand inclusive guideline",
                     when: "Q1 2021",
-                    description: "Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis. Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna. Quisque ac leo vel ex ornare aliquet. Donec auctor magna libero, non faucibus augue consequat quis. Integer feugiat nisi vel lacus vestibulum, ac auctor tortor gravida. Vestibulum laoreet, elit sit amet rutrum rutrum, erat dolor auctor ligula, id efficitur nulla mi at ante."
+                    why: "Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis. Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna. Quisque ac leo vel ex ornare aliquet. Donec auctor magna libero, non faucibus augue consequat quis. Integer feugiat nisi vel lacus vestibulum, ac auctor tortor gravida. Vestibulum laoreet, elit sit amet rutrum rutrum, erat dolor auctor ligula, id efficitur nulla mi at ante.",
+                    description: 
+                    <div>
+                        <div style={{marginBottom: "22px"}}>Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. <b>Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis.</b> Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna.</div>
+                        <ul style={{marginBottom: "22px", marginLeft: "-24px"}}>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ul>
+                        <div style={{marginBottom: "22px"}}>Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. <b>Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis.</b> Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna.</div>
+                        <ul style={{marginBottom: "22px", marginLeft: "-24px"}}>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ul>
+                    </div>
                 },
                 {
                     what: "Build brand inclusive guideline",
                     when: "Q1 2021",
-                    description: "Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis. Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna. Quisque ac leo vel ex ornare aliquet. Donec auctor magna libero, non faucibus augue consequat quis. Integer feugiat nisi vel lacus vestibulum, ac auctor tortor gravida. Vestibulum laoreet, elit sit amet rutrum rutrum, erat dolor auctor ligula, id efficitur nulla mi at ante."
+                    why: "Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis. Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna. Quisque ac leo vel ex ornare aliquet. Donec auctor magna libero, non faucibus augue consequat quis. Integer feugiat nisi vel lacus vestibulum, ac auctor tortor gravida. Vestibulum laoreet, elit sit amet rutrum rutrum, erat dolor auctor ligula, id efficitur nulla mi at ante."
                 }
             ]
         },
@@ -37,18 +52,33 @@ const Initiatives = () => {
                 {
                     what: "Build brand inclusive guideline",
                     when: "Q1 2021",
-                    description: "Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis. Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna. Quisque ac leo vel ex ornare aliquet. Donec auctor magna libero, non faucibus augue consequat quis. Integer feugiat nisi vel lacus vestibulum, ac auctor tortor gravida. Vestibulum laoreet, elit sit amet rutrum rutrum, erat dolor auctor ligula, id efficitur nulla mi at ante."
+                    why: "Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis. Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna. Quisque ac leo vel ex ornare aliquet. Donec auctor magna libero, non faucibus augue consequat quis. Integer feugiat nisi vel lacus vestibulum, ac auctor tortor gravida. Vestibulum laoreet, elit sit amet rutrum rutrum, erat dolor auctor ligula, id efficitur nulla mi at ante.",
+                    description: 
+                    <div>
+                        <div style={{marginBottom: "22px"}}>Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. <b>Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis.</b> Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna.</div>
+                        <ul style={{marginBottom: "22px", marginLeft: "-24px"}}>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ul>
+                        <div style={{marginBottom: "22px"}}>Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. <b>Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis.</b> Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna.</div>
+                        <ul style={{marginBottom: "22px", marginLeft: "-24px"}}>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ul>
+                    </div>
                 },
                 {
                     what: "Build brand inclusive guideline",
                     when: "Q2 2021",
-                    description: "Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis. Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna. Quisque ac leo vel ex ornare aliquet. Donec auctor magna libero, non faucibus augue consequat quis. Integer feugiat nisi vel lacus vestibulum, ac auctor tortor gravida. Vestibulum laoreet, elit sit amet rutrum rutrum, erat dolor auctor ligula, id efficitur nulla mi at ante."
+                    why: "Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis. Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna. Quisque ac leo vel ex ornare aliquet. Donec auctor magna libero, non faucibus augue consequat quis. Integer feugiat nisi vel lacus vestibulum, ac auctor tortor gravida. Vestibulum laoreet, elit sit amet rutrum rutrum, erat dolor auctor ligula, id efficitur nulla mi at ante."
                 },
                 ,
                 {
                     what: "Build brand inclusive guideline",
                     when: "Q3 2021",
-                    description: "Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis. Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna. Quisque ac leo vel ex ornare aliquet. Donec auctor magna libero, non faucibus augue consequat quis. Integer feugiat nisi vel lacus vestibulum, ac auctor tortor gravida. Vestibulum laoreet, elit sit amet rutrum rutrum, erat dolor auctor ligula, id efficitur nulla mi at ante."
+                    why: "Maecenas luctus purus orci, in malesuada nibh bibendum ut. In ac sagittis nibh. Phasellus pharetra iaculis felis at cursus. Duis quis nisl dui. In efficitur in purus in dictum. Curabitur pellentesque gravida nunc, quis lobortis nisl sodales iaculis. Donec id luctus nisl. Curabitur porta facilisis orci, a aliquam magna finibus vitae. Praesent non convallis mi, a vulputate mi. Donec ligula ipsum, condimentum eget nulla eget, fringilla lacinia urna. Quisque ac leo vel ex ornare aliquet. Donec auctor magna libero, non faucibus augue consequat quis. Integer feugiat nisi vel lacus vestibulum, ac auctor tortor gravida. Vestibulum laoreet, elit sit amet rutrum rutrum, erat dolor auctor ligula, id efficitur nulla mi at ante."
                 }
             ]
         },

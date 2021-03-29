@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Decoration from './../../assets/svg/DecorationOblique';
 import classes from './Dropdown.module.css';
 
-const Dropdown = ({title="Marketing", decorationColor="#FFFFFF", details=[], text="dads"}) => {
+const Dropdown = ({title="Marketing", decorationColor="#FFFFFF", details=[]}) => {
 
     const [toggle, setToggle] = useState(false);
 
@@ -29,25 +29,34 @@ const Dropdown = ({title="Marketing", decorationColor="#FFFFFF", details=[], tex
                                 key={`${el.what}_${el.when}_${i}`} 
                                 className={classes.dropdown__content__item}>
 
-                                <div className={classes.dropdown__content__item__whatSection}>
-                                    <div className={classes.dropdown__content__item__label}>WHAT</div>
-                                    <div className={classes.dropdown__content__item__text}>{el.what}</div>
+
+                                <div className={classes.dropdown__content__item__www}>
+                                    <div className={classes.dropdown__content__item__whatSection}>
+                                        <div className={classes.dropdown__content__item__label}>WHAT</div>
+                                        <div className={classes.dropdown__content__item__text}>{el.what}</div>
+                                    </div>
+                                    
+                                    <div className={classes.dropdown__content__item__whenSection}>
+                                        <div className={classes.dropdown__content__item__label}>WHEN</div>
+                                        <div className={classes.dropdown__content__item__text}>{el.when}</div>
+                                    </div>
+                                    
+                                    <div className={classes.dropdown__content__item__whySection}>
+                                        <div className={classes.dropdown__content__item__label}>WHY</div>
+                                        <div className={classes.dropdown__content__item__text}>{el.why}</div>
+                                    </div>
                                 </div>
-                                
-                                <div className={classes.dropdown__content__item__whenSection}>
-                                    <div className={classes.dropdown__content__item__label}>WHEN</div>
-                                    <div className={classes.dropdown__content__item__text}>{el.when}</div>
-                                </div>
-                                
-                                <div className={classes.dropdown__content__item__description}>
-                                    <div className={classes.dropdown__content__item__label}>WHY</div>
-                                    <div className={classes.dropdown__content__item__text}>{el.description}</div>
-                                </div>
+                                {
+                                    el.description != null ?
+                                    <div className={classes.dropdown__content__item__description}>
+                                        {el.description}
+                                    </div>
+                                    :
+                                    null
+                                }
                             </div>
                         )
                     })}
-
-                    <div className={classes.dropdown__content__description}>{text}</div>
                 </div>
                 :
                 null

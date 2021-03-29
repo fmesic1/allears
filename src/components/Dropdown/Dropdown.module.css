@@ -47,7 +47,7 @@
     flex-direction: column;
 }
 
-.dropdown__content__description{
+.dropdown__content__item__description{
     padding-top: 24px;
     font-family: "Gordita";
     font-style: normal;
@@ -61,13 +61,17 @@
 
 .dropdown__content__item{
     padding-top: 42px;
-    padding-bottom: 82px;
+    padding-bottom: 60px;
     display: flex;
+    flex-direction: column;
     border-bottom: 1px solid #E7EBEF;
 }
 
+.dropdown__content__item__www{
+    display: flex;
+}
+
 .dropdown__content__item:nth-last-child(1){
-    border: 2px solid teal;
     border-bottom: none;
 }
 
@@ -106,7 +110,7 @@
 
 }
 
-.dropdown__content__item__description{
+.dropdown__content__item__whySection{
     flex: 6;
     font-family: "Gordita";
     font-style: normal;
